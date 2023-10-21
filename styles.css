@@ -56,10 +56,26 @@ body {
   color: rgb(143, 137, 148);
 }
 
-.form-sub-label {
-  color: rgb(32, 152, 122);
+textarea {
+  width: 100%;
+  height: 75px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #594fdc;
+  border-radius: 4px;
+  background-color: #0000006f;
+  resize: none;
 }
 
+input[type=submit] {
+  padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: black; 
+}
 .projects {
   background-color: rgba(0, 0, 0, 0.488);
 }
