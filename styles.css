@@ -47,3 +47,88 @@ body {
 
 
 
+body {
+  background-image: url("./images/background2.jpg");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: fantasy;
+  color: cornsilk;
+}
+
+.headline {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me {
+  display: flex;
+  /* max-width: 1300px; */
+  margin: 40px auto 0 auto;
+  /* line-height: 165; */
+  padding: 20px 50px;
+  justify-content: space-around;
+}
+
+.about-me div {
+  max-width: 350px;
+  height: 70vh;
+}
+/* .aboutme div {
+  flex: 1;
+  max-width: 250px;
+} */
+.picofme {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 250px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.picofme img {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px 0 10px;
+
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+footer {
+  position: relative;
+  bottom: 20px;
+}
+#footer {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+}
+
+/* .intro {
+  flex: 3;
+  order: 2;
+}
+
+.picofme {
+  flex: 1;
+  order: 1;
+}
+
+.qualities {
+  flex: 1;
+  order: 3;
+} */
