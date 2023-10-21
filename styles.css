@@ -32,28 +32,51 @@ body {
 .about-me div {
   max-width: 350px;
   height: 70vh;
+  background-color: rgba(0, 0, 0, 0.488);
 }
 /* .aboutme div {
   flex: 1;
   max-width: 250px;
 } */
-.picofme {
+.contact {
   display: flex;
   flex-direction: column;
   height: 100%;
   max-width: 250px;
   overflow: hidden;
   margin: 0 10px;
+  background-color: rgba(0, 0, 0, 0.488);
 }
-.picofme img {
-  flex: 1;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  padding: 10px 0 10px;
 
-  border-radius: 4px;
-  overflow: hidden;
+.contact > h2 {
+  color: rgb(143, 137, 148);
+}
+
+.contact > h3 {
+  color: rgb(143, 137, 148);
+}
+
+.form-sub-label {
+  color: rgb(32, 152, 122);
+}
+
+.projects {
+  background-color: rgba(0, 0, 0, 0.488);
+}
+
+.projects h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.projects table, th, td {
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 footer {
@@ -79,7 +102,7 @@ footer {
   order: 1;
 }
 
-.qualities {
+.projects {
   flex: 1;
   order: 3;
 } */
